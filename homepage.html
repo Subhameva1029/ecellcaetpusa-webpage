@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ECellCAETPUSA</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css" integrity="sha384-b6lVK+yci+bfDmaY1u0zE8YYJt0TZxLEAFyYSLHId4xoVvsrQu3INevFKo+Xir8e" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/92bd12f87b.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="homepage.html"><img src="logo.jpg" alt=""></a>
+            <div class="nav-bar" id="navbar">
+                <i class="fa-solid fa-xmark" onclick="hidemenu()"></i>
+                <ul>
+                    <li><a href="homepage.html">HOME</a></li>
+                    <li><a href="homepage.html">INITIATIVES</a></li>
+                    <li><a href="homepage.html">TEAM</a></li>
+                    <li><a href="homepage.html">GALLERY</a></li>
+                    <li><a href="homepage.html">ABOUT US</a></li>
+                </ul> 
+            </div>
+            <i class="fa-solid fa-bars" onclick="showmenu()"></i>
+         </nav>
+            <div class="heading">
+                <h1>E-Cell CAET PUSA</h1>
+                <span class="autoupdate"></span>
+                <br>
+                <br>
+                <br>
+                <a href="" class="btn-one">Get Started</a>
+            </div>
+        
+
+
+
+    </section>
+
+
+<script>
+    var nav_value = document.getElementById("navbar");
+    function showmenu(){
+        navbar.style.right = "0";
+    }
+
+    function hidemenu(){
+        navbar.style.right = "-200px";
+    }
+</script>
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+<script>
+    var typed = new Typed(".autoupdate", { 
+        strings: ["BRING YOUR YOUNG THOUGHTS INTO ACTION"], 
+        typeSpeed: 100,
+        backSpeed: 100,
+        loop: true
+    })
+</script>
+   
+</body>
+</html>
