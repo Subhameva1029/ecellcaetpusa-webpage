@@ -45,7 +45,7 @@ nav img{
     content: '';
     width: 0%;
     height: 2px;
-    background: #dc550c;
+    background: #08dd19;
     display: block;
     margin: auto;
     transition: 0.5s;
@@ -75,6 +75,14 @@ nav img{
     font-size: 30px;
 }
 
+.heading p{
+    position: relative;
+    font-size: 20px;
+    padding: 30px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
 .btn-one{
     display: inline-block;
     text-decoration: none;
@@ -88,8 +96,8 @@ nav img{
 }
 
 .btn-one:hover{
-    border: 1px solid #dc550c;
-    background: #dc550c;
+    border: 1px solid #08dd19;
+    background: #08dd19;
     transition: 0.5s;
 
 }
@@ -112,7 +120,7 @@ nav .fa-solid {
 
     .nav-bar {
         position: absolute;
-        background: #dc550c;
+        background: #08dd19;
         height: 100vh;
         width: 200px;
         top: 0;
