@@ -4,6 +4,11 @@
     font-family: 'Roboto Slab', serif;
 }
 
+body{
+    background-color: whitesmoke;
+
+}
+
 .header{
     min-height: 100vh;
     width: 100%;
@@ -28,17 +33,48 @@ nav img{
     text-align: right;
 }
 
+
+.nav-bar ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
 .nav-bar ul li {
+   
     list-style: none;
     display: inline-block;
     padding: 20px 40px;
     position: relative;
+} 
+
+/* ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
 }
+
+ul li {
+    float: right;
+    width: 200px;
+    height: 40px;
+    background: transparent;
+    line-height: 40px;
+    text-align: center;
+    font-size: 20px;
+} */
 
 .nav-bar ul li a {
     color: black;
     text-decoration: none;
     font-size: 13px;
+}
+
+.nav-bar ul li button {
+    color: black;
+    text-decoration: none;
+    font-size: 13px;
+    background-color: transparent;
 }
 
 .nav-bar ul li::after{
@@ -69,6 +105,58 @@ nav img{
     font-size: 62px;
 }
 
+.second-heading{
+    flex: 1;
+    color: black;
+    position: absolute;
+    left: 10%;
+    text-align: left;
+}
+
+.second-heading h2{
+    flex: 1;
+    font-size: 42px;
+    padding-left: 2%;
+}
+
+.second-heading a{
+    left: 120px;
+    position: relative;
+}
+
+.third-heading{
+    flex: 1;
+    color: black;
+    position: absolute;
+    left: 10%;
+    text-align: left;
+}
+
+.third-heading h2{
+    flex: 1;
+    top: 500px;
+    position: relative;
+    font-size: 42px;
+    padding-left: 2%;
+}
+
+
+.third-heading p{
+    flex: 1;
+    top: 500px;
+    padding: 30px;
+    font-size: 20px;
+    position: relative;
+}
+
+.second-heading p{
+    flex: 1;
+    padding: 30px;
+    position: relative;
+    font-size: 20px;
+}
+
+
 .heading span{
     margin: 10px 0 40px;
     color: rgba(45, 42, 42, 0.871);
@@ -96,7 +184,7 @@ nav img{
 }
 
 .btn-one:hover{
-    border: 1px solid #08dd19;
+    border: 2px solid #0a0f0a;
     background: #08dd19;
     transition: 0.5s;
 
@@ -108,6 +196,71 @@ nav .fa-solid {
 }
 
 
+/* dropdown area */
+
+/*
+
+.dropbtn {
+    color: white;
+    padding: 0px 10px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+
+
+  .dropdown-content {
+    display: none;
+    float: 0;
+    position: absolute;
+    background-color: #23cc1a;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: rgb(8, 132, 39);}
+  
+  .show {display:block;}
+  */
+
+  
+  /*dorpdown ends*/
+
+
+.animation-one img {
+    display: -webkit-box;
+    margin-left: auto;
+    top: auto;
+}
+
+.fig-det span{
+    position: relative;
+    font-size: 20px;
+    top: 380px;
+    left: 1130px;
+}
+
+.photo {
+    flex: 1;
+    float: right;
+    top: 400px;
+    left: 398px;
+    position: relative;
+}
+
+.footer span {
+    position: relative;
+    left: 130px;
+    font-size: 20px;
+}
 
 @media(max-width: 700px){
     .heading h1{
@@ -137,5 +290,21 @@ nav .fa-solid {
         margin: 10px;
         font-size: 22px;
         cursor: pointer;
+    }
+
+    .photo {
+        flex: 1;
+        float: right;
+        top: 900px;
+        left: 50px;
+        position: relative;
+    }
+
+    .third-heading h2{
+        flex: 1;
+        top: 500px;
+        position: relative;
+        font-size: 25px;
+        padding-left: 2%;
     }
 }
