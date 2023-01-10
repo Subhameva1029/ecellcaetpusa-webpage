@@ -262,6 +262,30 @@ nav .fa-solid {
     font-size: 20px;
 }
 
+.scroll-notice {
+    background-color: white;
+    width: 80%;
+    height: 300px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    text-align: center;
+    padding: 20px;
+    top: 500px;
+    left: 160px;
+    align-items: center;
+    position: relative;
+    border: 2px solid green;
+}
+
+.scroll-notice ul li {
+    padding: 20px;
+    left: 3px;
+}
+
+.notice-heading {
+    background-color: #35db4295;
+}
+
 @media(max-width: 700px){
     .heading h1{
         font-size: 20px;
@@ -306,5 +330,19 @@ nav .fa-solid {
         position: relative;
         font-size: 25px;
         padding-left: 2%;
+    }
+
+    .scroll-notice {
+        background-color: white;
+        width: 300px;
+        height: 150px;
+        overflow-x: hidden;
+        overflow-y: auto;
+        text-align: center;
+        top: 1000px;
+        left: 50px;
+        align-items: center;
+        position: relative;
+        border: 4px solid green;
     }
 }
