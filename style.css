@@ -334,8 +334,8 @@ nav .fa-solid {
 
     .scroll-notice {
         background-color: white;
-        width: 300px;
-        height: 150px;
+        width: 80%;
+        height: 200px;
         overflow-x: hidden;
         overflow-y: auto;
         text-align: center;
