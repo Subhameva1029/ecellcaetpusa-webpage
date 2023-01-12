@@ -1,0 +1,117 @@
+
+  .social-wrapper .social-button{
+    display: inline-block;
+    height: 60px;
+    width: 60px;
+    margin: 0 5px;
+    overflow: hidden;
+    background: #fff;
+    border-radius: 50px;
+    cursor: pointer;
+    box-shadow: 0px 10px 10px rgba(0,0,0,0.1);
+    transition: all 0.3s ease-out;
+  }
+  .social-wrapper .social-button:hover{
+    width: 200px;
+  }
+  .social-wrapper .social-button .social-icon{
+    display: inline-block;
+    height: 60px;
+    width: 60px;
+    text-align: center;
+    border-radius: 50px;
+    border: 1px solid black;
+    box-sizing: border-box;
+    line-height: 60px;
+    transition: all 0.3s ease-out;
+  }
+  .social-wrapper .social-button:nth-child(1):hover .social-icon{
+    background: #4267B2;
+  }
+  .social-wrapper .social-button:nth-child(2):hover .social-icon{
+    background: #1DA1F2;
+  }
+  .social-wrapper .social-button:nth-child(3):hover .social-icon{
+    background: #E1306C;
+  }
+  .social-wrapper .social-button:nth-child(4):hover .social-icon{
+    background: #ff0000;
+  }
+  
+  .social-wrapper .social-button .social-icon i{
+    font-size: 25px;
+    line-height: 60px;
+    color: #000;
+    transition: all 0.3s ease-out;
+  }
+  .social-wrapper .social-button:hover .social-icon i{
+    color: #fff;
+  }
+  .social-wrapper .social-button span{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 60px;
+    margin-left: 10px;
+    transition: all 0.3s ease-out;
+  }
+  .social-wrapper .social-button:nth-child(1) span{
+    color: #4267B2;
+  }
+  .social-wrapper .social-button:nth-child(2) span{
+    color: #1DA1F2;
+  }
+  .social-wrapper .social-button:nth-child(3) span{
+    color: #E1306C;
+  }
+  .social-wrapper .social-button:nth-child(4) span{
+    color: #ff0000;
+  }
+  
+  .social-wrapper {
+    position: relative;
+    left: 400px;
+    top: 950px;
+  }
+
+  .social-button a {
+    text-decoration: none;
+  }
+
+  @media(max-width: 700px){
+    .social-wrapper {
+      position: relative;
+      left: 45px;
+      top: 1070px;
+    }
+
+    .social-wrapper .social-button .social-icon{
+      display: inline-block;
+      height: 30px;
+      width: 30px;
+      text-align: center;
+      border-radius: 25px;
+      border: 1px solid black;
+      box-sizing: border-box;
+      line-height: 30px;
+      transition: all 0.3s ease-out;
+    }
+
+    .social-wrapper .social-button .social-icon i{
+      font-size: 18px;
+      line-height: 30px;
+      color: #000;
+      transition: all 0.3s ease-out;
+    }
+
+    .social-wrapper .social-button:hover{
+      width: 70px;
+    }
+
+    .social-wrapper .social-button span{
+      font-size: 10px;
+      font-weight: 300;
+      line-height: 30px;
+      margin-left: 5px;
+      transition: all 0.3s ease-out;
+    }
+  }

@@ -15,11 +15,13 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="https://kit.fontawesome.com/92bd12f87b.js" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <script src="script.js"></script>
     <link rel="stylesheet" href="stylefortheclose.css">
     <link rel="stylesheet" href="astronaut.css">
     <link rel="stylesheet" href="feedback_show.css">
     <link rel="stylesheet" href="contact_us.css">
+    <link rel="stylesheet" href="social.css">
 
 
 </head>
@@ -50,12 +52,12 @@
                 <br>
                 <br>
                 <br><br><br>
-                <a href="homepage.html" class="btn-one">Get Started</a>
+                <a href="#section-1" class="btn-one">Get Started</a>
             </div>
         
     </section>
 
-    <section class="main-content">
+    <section class="main-content" id="section-1">
         <div class="second-heading">
             <h2>What is E-Cell ?</h2>
             <p>
@@ -282,6 +284,44 @@
       </div>
     </div>
   </div>
+
+  <div class="social-wrapper">
+    <div class="social-button">
+       <div class="social-icon">
+            <i class="fab fa-facebook-f"></i>
+       </div>
+       <a href="https://www.facebook.com/profile.php?id=100085462089431"><span>Facebook</span></a>
+    </div>
+    <div class="social-button">
+       <div class="social-icon">
+            <i class="fab fa-linkedin"></i>
+       </div>
+       <a href="https://www.linkedin.com/posts/e-cell-rpcau-0b997a250_ecellabrcaetabrpusa-nec-necabriitbombay-activity-6998229160246599680-iphv?utm_source=share&utm_medium=member_android"><span>LinkedIn</span></a>
+    </div>
+    <div class="social-button">
+       <div class="social-icon">
+            <i class="fab fa-instagram"></i>
+       </div>
+       <a href="https://instagram.com/ecell_caet_pusa?igshid=YmMyMTA2M2Y"><span>Instagram</span></a>
+    </div>
+    <div class="social-button">
+       <div class="social-icon">
+            <i class="fab fa-youtube"></i>
+       </div>
+       <a href="https://youtube.com/channel/UCy-Za8v3-FXcWlYi8cqSajA"><span>Youtube</span></a>
+    </div>
+ </div>
+
+
+<div class="footer-copyright">
+  <p>Copyright &copy; <span id="year"></span> E-Cell CAET PUSA</p>
+</div>
+
+
+  <script>
+    const year = document.getElementById("year");
+    year.textContent = new Date().getFullYear();
+  </script>
 
 
   <script>
