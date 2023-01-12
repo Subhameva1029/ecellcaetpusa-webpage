@@ -1,0 +1,210 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing: border-box ;
+}
+body{
+    background-color: rgb(255, 255, 255);
+}
+.header{
+    background-color: rgb(255, 255, 255);
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between ;
+    padding-left: 4%;
+    padding-right: 8%;
+}
+nav img{
+    width: 150px;
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 20px 45px;
+}
+nav ul li a{
+    color: black;
+    text-decoration: none;
+    text-transform: capitalize;   
+}
+nav ul li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background:#08dd19;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+nav ul li:hover::after{
+    width: 100%;
+}
+.team{
+    text-align:center;
+    font-weight: 50px;
+    padding-top: 60px;
+}
+.team h1{
+    color: red;
+}
+span{
+    color: #08dd19;
+}
+.social-box{
+    background: white;
+    margin: 60px auto 20px;
+    text-align: center;
+    border-radius: 3px;
+}
+.social-box .bi{
+    margin: 5px;
+    color: black;
+    cursor: pointer;
+}
+.team-members{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 90%;
+    margin: auto;
+}
+.teams{
+    width: 280px;
+    height: 280px;
+    background: white;
+    border-radius: 4px;
+    margin-bottom: 30px;
+    box-shadow: 0 10px 10px 10px rgba(115,193,255, 0.1);
+    padding: 20px;
+    position: relative;
+}
+.teams img{
+    width: 100px;
+    position:absolute;
+    top: 20px;
+    right: 20px;
+    border-radius: 4px;
+    transition: .5s;
+}
+.teams img:hover{
+    width: 260px;
+}
+.teams h4{
+    margin-top: 25px;
+    margin-bottom: 5px;
+    color: black;
+}
+.teams h6{
+    color: red;
+}
+.teams p{
+    text-align: center;
+    line-height: 14px;
+    color: black;
+}
+.teams:hover{
+    background: #08dd19;
+}
+.teams:hover h4{
+    color: black;
+}
+.teams:hover h6{
+    color: black;
+}
+.teams:hover p{
+    color: black;
+}
+
+
+.team-members1{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 54%;
+    margin-left: 23%;
+}
+.team-members2{
+    display:flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 90%;
+    margin-left: 39.3%;
+}
+.team-members3{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 90%;
+    margin: auto;
+}
+.team-members4{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 90%;
+    margin: auto;
+}
+.team-members5{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 90%;
+    margin: auto;
+}
+.team-members6{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 54%;
+    margin-left: 23%;
+}
+.team-members7{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 90%;
+    margin: auto;
+}
+.team-members8{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 54%;
+    margin-left: 23%;
+}
+.team-members9{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 90%;
+    margin: auto;
+}
+.tail{
+    text-align: center;
+}
+.tail p{
+    margin-left: 18%;
+    margin-right: 18%;
+}
+footer{
+    background-color: white;
+    width: 100%;
+    height: 200px;
+}
+footer h1{
+    text-align: center;
+    font-family: cursive;
+}
+footer p{
+    text-align: center;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+.mail{
+    text-align: center;
+    margin-left: 25%;
+    margin-right: 25%;
+}

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Image</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='gallary.css'>
+</head>
+<body>
+        <!-- header-->
+        <div class="header">
+            <nav>
+                <img src="logo_trial.jpg">
+                <ul>
+                    <li><a href="homepage.html">HOME</a></li>
+                    <li><a href="innitiative.html">INITIATIVES</a></li>
+                    <li><a href="team.html">TEAM</a></li>
+                    <li><a href="gallary.html">GALLERY</a></li>
+                    <li><a href="About_us.html">ABOUT US</a></li>
+                </ul>
+            </nav>
+            </div>
+            <div>
+                <br>
+                <br>
+                <br>
+                <br>
+            </div>
+            <!--popup img-->
+            <div class="popup-img" id="fullimgbox">
+                <img src="Logo (2).png" id="fullimg">
+                <span onclick="closefullImg()">X</span>
+            </div>
+            <!--img-->
+    <div class="image">
+        <img src="web1 (1).JPG" alt="webinar" onclick="openFullImg(this.src)">
+        <img src="web1 (10).jpg" alt="webinar" onclick="openFullImg(this.src)">
+        <img src="web1 (11).jpg" alt="webinar" onclick="openFullImg(this.src)">
+        <img src="web1 (12).jpg" alt="webinar" onclick="openFullImg(this.src)">
+        <img src="web1 (13).jpg" alt="webinar" onclick="openFullImg(this.src)">
+        <img src="web1 (14).jpg" alt="webinar" onclick="openFullImg(this.src)">
+        <img src="web1 (15).JPG" alt="webinar" onclick="openFullImg(this.src)">
+        <img src="web1 (16).JPG" alt="webinar" onclick="openFullImg(this.src)">
+        <img src="web1 (2).JPG" alt="webinar" onclick="openFullImg(this.src)">
+        <img src="web1 (3).JPG" alt="webinar" onclick="openFullImg(this.src)">
+        <img src="web1 (4).JPG" alt="webinar" onclick="openFullImg(this.src)">
+        <img src="web1 (5).JPG" alt="webinar" onclick="openFullImg(this.src)">
+        <img src="web1 (6).JPG" alt="webinar" onclick="openFullImg(this.src)">
+        <img src="web1 (7).JPG" alt="webinar" onclick="openFullImg(this.src)">
+        <img src="web1 (8).JPG" alt="webinar" onclick="openFullImg(this.src)">
+        <img src="web1 (9).jpg" alt="webinar" onclick="openFullImg(this.src)">
+        <img src="illuminate (1).JPG" alt="photos" onclick="openFullImg(this.src)">
+        <img src="illuminate (2).JPG" alt="photos" onclick="openFullImg(this.src)">
+        <img src="workshop (1).JPG" alt="photos" onclick="openFullImg(this.src)">
+        <img src="workshop (2).JPG" alt="photos" onclick="openFullImg(this.src)">
+        <img src="workshop (3).JPG" alt="photos" onclick="openFullImg(this.src)">
+        <img src="workshop (4).JPG" alt="photos" onclick="openFullImg(this.src)">
+        <img src="workshop (5).JPG" alt="photos" onclick="openFullImg(this.src)">
+        <img src="workshop (6).JPG" alt="photos" onclick="openFullImg(this.src)">
+        <img src="eureka (1).jpg" alt="photos" onclick="openFullImg(this.src)">
+        <img src="eureka (2).jpg" alt="photos" onclick="openFullImg(this.src)">
+        <img src="eureka (3).jpg" alt="photos" onclick="openFullImg(this.src)">
+        <img src="eureka (4).jpg" alt="photos" onclick="openFullImg(this.src)">
+        <img src="eureka (5).jpg" alt="photos" onclick="openFullImg(this.src)">
+        <img src="eureka (6).jpg" alt="photos" onclick="openFullImg(this.src)">
+        <img src="biz-q1 (1).jpg" alt="photos" onclick="openFullImg(this.src)">
+        <img src="biz-q1 (2).jpg" alt="photos" onclick="openFullImg(this.src)">
+        <img src="ipl (1).jpg" alt="photos" onclick="openFullImg(this.src)">
+        <img src="ipl (2).jpg" alt="photos" onclick="openFullImg(this.src)">
+        <img src="ipl (3).jpg" alt="photos" onclick="openFullImg(this.src)">
+        <img src="ipl (4).jpg" alt="photos" onclick="openFullImg(this.src)">
+        <img src="ipl (5).jpg" alt="photos" onclick="openFullImg(this.src)">
+        <img src="ipl (6).jpg" alt="photos" onclick="openFullImg(this.src)">
+        <img src="ipl (7).jpg" alt="photos" onclick="openFullImg(this.src)">
+        <img src="webinar (1).png" alt="photos" onclick="openFullImg(this.src)">
+        <img src="webinar (2).png" alt="photos" onclick="openFullImg(this.src)">
+
+        
+    <script>
+
+        var fullimgbox =document.getElementById("fullimgbox");
+        var fullimg =document.getElementById("fullimg");
+
+
+        function openFullImg(pic){
+            fullimgbox.style.display= "flex";
+            fullimg.src= pic;
+        }
+
+
+        function closefullImg(){
+            fullimgbox.style.display= "none";
+        }
+    </script>
+    
+</body>
+
+</html>
