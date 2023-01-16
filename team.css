@@ -6,6 +6,7 @@
 }
 body{
     background-color: rgb(255, 255, 255);
+    width: 1200px;
 }
 .header{
     background-color: rgb(255, 255, 255);
@@ -54,10 +55,11 @@ span{
     color: #08dd19;
 }
 .social-box{
-    background: white;
+    background: whitesmoke;
     margin: 60px auto 20px;
     text-align: center;
     border-radius: 3px;
+    border: 2px solid black;
 }
 .social-box .bi{
     margin: 5px;
@@ -74,7 +76,7 @@ span{
 .teams{
     width: 280px;
     height: 280px;
-    background: white;
+    background: whitesmoke;
     border-radius: 4px;
     margin-bottom: 30px;
     box-shadow: 0 10px 10px 10px rgba(115,193,255, 0.1);
@@ -131,7 +133,7 @@ span{
     justify-content: space-between;
     flex-wrap: wrap;
     width: 90%;
-    margin-left: 39.3%;
+    margin-left: 40.9%;
 }
 .team-members3{
     display: flex;
@@ -207,4 +209,7 @@ footer p{
     text-align: center;
     margin-left: 25%;
     margin-right: 25%;
+}
+.nishita{
+    font-size: 14px;
 }
